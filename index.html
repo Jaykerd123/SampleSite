@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <title>Jaykerd|Folio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <header>
+      
+        <div class="first-container">
+            <h1 class="hOne"><span style="color: #00cccc;">Jaykerd</span><span style="color: gray;">|</span><span style="color: #00cccc;">Folio</span></h1>
+
+            <nav>
+                <a href="#" class="Home">Home</a>
+                <a href="blog.html">IT111 Blog Entries Page</a>
+                <a href="#">Flex Page</a>
+            </nav>
+        </div>
+        
+    </header>
+    <!-- RAGGGGGGG-->
+    <div class="container">
+          
+      
+    <div class="left-container">
+        <p class="par"><b>Hi there,</b></p>
+        <h1 class="headName">My name is <span style="color: #00cccc;">Jaykerd</span></p></h1>
+        <p class="par2"> &ensp; &ensp; Welcome to my digital haven! I'm passionate about exploring worlds through books, diving into cinematic journeys, embarking on gaming adventures, and delving into the intricate world of coding. Join me in this eclectic space where the realms of literature and coding converge to create a unique online experience.</p>
+        <div class="social-container">
+          <a href="https://www.facebook.com/jaykerdritz.sario.1?mibextid=ZbWKwL" class="social-link"><img class="profile2" src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-2019-circle-512.png" alt="FacebookProfile"></a>
+          <a href="https://twitter.com/home" class="social-link" id="twitter"><img class="profile2" src="https://cdn.icon-icons.com/icons2/4029/PNG/512/twitter_x_new_logo_x_rounded_icon_256078.png"></a>
+          <a href="#" class="social-link"><img class="profile2" src="https://upload.wikimedia.org/wikipedia/en/3/3d/Logo_of_Bukidnon_State_University.png"</a>
+          <a href="https://twitter.com/home" class="social-link" id="twitter"><img class="profile2" src="https://static.vecteezy.com/system/resources/previews/016/716/465/non_2x/gmail-icon-free-png.png"></a>
+  <!-- Add more social links as needed -->
+  
+  <footer>
+    <p>&#169; 2023 Jaykerd|Folio. All rights reserved.</p>
+    <p>Version 1.0</p>
+    <p>Crafted by [Jaykerd Ree]</p>
+</footer>
+</div>
+    </div>
+    <div class="right-container">
+      <img class="yui" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22518724-9edd-4d38-b3ac-a9a09f8eb4eb/deyeyru-b1fcaae6-3a7f-4a4f-b5bb-7337edad71fb.jpg/v1/fill/w_1048,h_762,q_70,strp/yui_hirasawa_design_edit_by_alpha706_deyeyru-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTE4NyIsInBhdGgiOiJcL2ZcLzIyNTE4NzI0LTllZGQtNGQzOC1iM2FjLWE5YTA5ZjhlYjRlYlwvZGV5ZXlydS1iMWZjYWFlNi0zYTdmLTRhNGYtYjViYi03MzM3ZWRhZDcxZmIuanBnIiwid2lkdGgiOiI8PTE2MzIifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.JkZMt1zgQ0vACN7jaPVAtFGXR1badT7mddKawmpcZXo" alt="">
+      <button class="aboutButton" onclick="openInfoModal()">My Info<img src="" alt=""></button>
+
+<div id="infoOverlay"></div>
+
+<div id="infoModal">
+    <p><b>[MY INFO]</b></p>
+    <p>Name: Jaykerd Ritz P. Sario</p>
+    <p>Birthday: January 28, 2003</p>
+    <p>Residence: Purok 23 Malaybalay City</p>
+    <p>Hobbies: Gaming, Music, Reading and Biking</p>
+    <button class="closeButton" onclick="closeInfoModal()">Close</button>
+</div>
+
+
+       </div>
+    </div>
+</div>
+
+<script>
+    function openInfoModal() {
+        var infoModal = document.getElementById("infoModal");
+        var infoOverlay = document.getElementById("infoOverlay");
+        infoModal.style.display = "block";
+        infoOverlay.style.display = "block";
+    }
+
+    function closeInfoModal() {
+        var infoModal = document.getElementById("infoModal");
+        var infoOverlay = document.getElementById("infoOverlay");
+        infoModal.style.display = "none";
+        infoOverlay.style.display = "none";
+    }
+</script>
+</body>
+</html>

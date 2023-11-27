@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+    background-color: #00796b;
+    color: #d0d0d0;
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/830/730/528/digital-art-pixel-art-city-colorful-wallpaper-fc7e1d79f9e71cb49a241ca55be18517.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #ffcc00;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-bottom: 5px solid #00bcd4;
+    border-image: linear-gradient(to right, #00bcd4, #1a1a1a, #00bcd4);
+    border-image-slice: 2;
+}
+
+header::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    z-index: -1;
+}
+
+.first-container {
+    margin-top: 70px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a {
+    color: #00bcd4;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #00796b;
+}
+
+.disabled-link {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.main-content {
+    margin-top: 1000px;
+}
+
+.contents {
+    margin-left: 100px;
+}
+
+.yui {
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.aboutButton {
+    background-color: #000000;
+    color: #ffff;
+    border: 2px double #00ffff;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+.aboutButton:hover {
+    background-color: #555555;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-container {
+    width: 100%;
+    color: #ffffff;
+    height: 900px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.right-container {
+    width: 50%;
+    color: #ffffff;
+    height: 500px;
+    margin-top: 300px;
+    margin-bottom: 0;
+}
+
+.par {
+    color: #fff;
+    margin-top: 300px;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.par2, .headName {
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.social-container {
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.profile {
+    height: 20px;
+}
+
+.profile2 {
+    height: 30px;
+    margin-top: 20px;
+}
+
+footer {
+    font-size: 7px;
+    color: black;
+    margin-top: 230px;
+}
+
+.example-box {
+    width: 200px;
+    height: 100px;
+    border: 4px outset #00bcd4;
+    /* 4px wide outset border with a cyan color */
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#infoModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border: 4px inset #00bcd4;
+    border-radius: 10px;
+}
+
+#infoOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.closeButton {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
